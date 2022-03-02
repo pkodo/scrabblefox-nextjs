@@ -1,0 +1,45 @@
+.header {
+  width: 50%;
+  height: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: auto auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.header button {
+  align-items: center;
+  font: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ffffff;
+  background-color: #626162;
+  color: white;
+  min-width: 100;
+  height: 30px;
+  border-radius: 12px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.header button:hover,
+.header button:active {
+  background-color: #2a2a2a;
+  border-color: #f8f8f8;
+}
+
+.header button.alternative {
+  color: #2a2a2a;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.header button.alternative:hover,
+.header button.alternative:active {
+  background-color: #2a2a2a;
+}

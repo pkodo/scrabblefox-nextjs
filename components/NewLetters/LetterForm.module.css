@@ -1,0 +1,23 @@
+.new-letter__controls {
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.new-letter__control label {
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+}
+
+.new-letter__control input {
+  font: inherit;
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 275px;
+  min-width: 100px;
+}

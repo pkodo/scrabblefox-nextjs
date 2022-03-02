@@ -1,0 +1,41 @@
+.new-letter {
+  background-color: #a892ee;
+  padding: 1rem 1rem;
+  margin: 2rem auto;
+  width: 50%;
+  max-width: 650px;
+  min-width: 200px;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-letter button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.new-letter button:hover,
+.new-letter button:active {
+  background-color: #e48100;
+  border-color: #200f01;
+}
+
+.new-letter button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-letter button.alternative:hover,
+.new-letter button.alternative:active {
+  background-color: #f098da;
+}
