@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    NEXT_PUBLIC_GA_ID: 'UA-221063212-1',
+    NEXT_PUBLIC_GA_ID: 'G-KFLTYRB8V8',
     ADSENSE_ID: 'ca-pub-4456810469040806'
   }
 }
